@@ -10,5 +10,7 @@ namespace Brunch.Models
         public Guid Id { get; set; }
         public DateTime Fecha { get; set; }
         public decimal Total { get; set; }
+        public virtual ICollection<Producto> Productos { get; set; }
+        public virtual ICollection<Platillo> Platillos { get; set; }
     }
 }

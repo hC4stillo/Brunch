@@ -13,5 +13,6 @@ namespace Brunch.Models
         public bool Disponibilidad { get; set; }
         public decimal PrecioCosto { get; set; }
         public decimal PrecioVenta { get; set; }
+        public virtual ICollection<Producto> Productos { get; set; }
     }
 }

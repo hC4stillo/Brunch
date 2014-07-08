@@ -12,5 +12,6 @@ namespace Brunch.Models
         public string Nombre { get; set; }
         public int Cantidad { get; set; }
         public Medida Medida { get; set; }
+        public virtual Producto Producto { get; set; }
     }
 }
